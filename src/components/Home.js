@@ -1,7 +1,9 @@
 import React from "react";
+import App from "./App";
 
 function Home(props) {
   return (
+    
     <div id="home">
       <h1 style={{ color: props.color }}>
         {props.name} is a Web Developer from {props.city}
@@ -9,5 +11,5 @@ function Home(props) {
     </div>
   );
 }
-
+console.log(Home)
 export default Home;
