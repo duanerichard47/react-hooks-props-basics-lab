@@ -1,12 +1,14 @@
 import React from 'react';
 
 
-function Links(props){
+function Links({github,linkedin}){
+
     return(
+        
 <div>
     <h3>Links</h3>
-    <a href ="props.github">{props.github}</a>
-    <a href ="props.linkedin">{props.linkedin}</a>
+    <a href ={github}>https://github.com/liza</a>
+    <a href ={linkedin}>https://www.linkedin.com/in/liza/</a>
 </div>
             )
 }

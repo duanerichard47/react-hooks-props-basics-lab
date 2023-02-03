@@ -5,14 +5,16 @@ import About from "./About";
 
 // pass this data down as props to the child component(s) that need it!
 import user from "../data/user";
+
+
 console.log(user);
 
 function App(props) {
   return (
     <div>
       <NavBar />
-      <Home  props/>
-      <About props/>
+      <Home  color = {user.color} name = {user.name} city = {user.city} />
+      <About github = {user.github} linkedin={user.linkedin} bio={user.bio} />
     </div>
   );
 }
