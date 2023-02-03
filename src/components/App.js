@@ -14,7 +14,7 @@ function App(props) {
     <div>
       <NavBar />
       <Home  color = {user.color} name = {user.name} city = {user.city} />
-      <About github = {user.github} linkedin={user.linkedin} bio={user.bio} />
+      <About githubArg1 = {user.github} linkedinArg2={user.linkedin} bio={user.bio} />
     </div>
   );
 }
